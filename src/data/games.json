@@ -1,0 +1,71 @@
+[
+  {
+    "id": "capsule-carnage",
+    "title": "Capsule Carnage",
+    "description": "An intense action-packed adventure with explosive gameplay and stunning visuals. Experience the thrill of high-octane combat in a beautifully crafted world where every explosion tells a story.",
+    "image": "/images/game-1.svg",
+    "youtubeVideo": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "screenshots": [
+      "/images/game-1.svg",
+      "/images/game-2.svg", 
+      "/images/game-3.svg",
+      "/images/game-1.svg"
+    ],
+    "features": [
+      "Explosive action-packed gameplay",
+      "Stunning visual effects",
+      "Immersive sound design",
+      "Multiple game modes",
+      "Advanced AI enemies",
+      "Dynamic weather system"
+    ],
+    "technicalSpecs": {
+      "platform": "PC, Mobile",
+      "genre": "Action, Adventure",
+      "release": "In Development",
+      "engine": "Unity Engine 6",
+      "graphics": "Next-Gen Rendering",
+      "audio": "3D Spatial Audio"
+    }
+  },
+  {
+    "id": "balance-till-end",
+    "title": "Balance Till End",
+    "description": "Balance Till End is a game in which the player has to BALANCE the ball TILL the END to FINISH the Game. This game has an END.",
+    "image": "/images/game-2.svg",
+    "features": [
+      "Fast-paced arcade gameplay",
+      "Cosmic obstacle navigation",
+      "Power-up collection system",
+      "High score challenges",
+      "Dynamic difficulty scaling",
+      "Stunning space visuals"
+    ],
+    "technicalSpecs": {
+      "platform": "Mobile",
+      "genre": "Arcade, Runner",
+      "release": "Available Now",
+      "engine": "Unity Engine 5"
+    }
+  },
+  {
+    "id": "spacedroids",
+    "title": "Spacedroids",
+    "description": "Space Shooter - Escape the Droids !!!!",
+    "image": "/images/game-3.svg",
+    "features": [
+      "Deep turn-based strategy",
+      "Tactical combat system",
+      "Unique unit abilities",
+      "Strategic map positioning",
+      "Multiple victory conditions",
+      "Replayable scenarios"
+    ],
+    "technicalSpecs": {
+      "platform": "Mobile",
+      "genre": "Strategy, Tactics",
+      "release": "Available Now",
+      "engine": "Unity Engine 5"
+    }
+  }
+]

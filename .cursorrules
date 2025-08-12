@@ -1,0 +1,23 @@
+# General Rules
+- Use Next.js 14 with TypeScript and Tailwind CSS.
+- Follow Eka Corp brand colors: dark gray (#1a1a1a), bright red (#ff3b3b), and white (#ffffff).
+- Always make designs responsive (mobile-first).
+- Use semantic HTML with accessibility in mind (ARIA labels, alt text for images).
+- Keep code modular: reusable components in src/components.
+- Use Tailwind utility classes for styling; avoid inline styles and avoid separate CSS files unless needed.
+- Optimize all images for web (prefer WebP format).
+- Keep performance high; use Next.js Image component for all images.
+- Keep animations lightweight and GPU-friendly.
+- Write clean, commented code with clear naming conventions.
+- Follow mobile-first design principles.
+
+# Page & Folder Structure
+- Pages: src/app
+- Components: src/components
+- Data: src/data (JSON files)
+- Assets: public/images
+
+# Communication
+- Ask before removing or overwriting large sections of existing code.
+- Always confirm before adding third-party dependencies.
+- Include comments for complex logic.

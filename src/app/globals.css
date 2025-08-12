@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0F172A; /* Dark Navy */
+  --foreground: #FFFFFF; /* White */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #1E40AF; /* Primary Blue */
+  --color-accent: #3B82F6;  /* Accent Blue */
+  --color-light: #EFF6FF;   /* Light Blue Tint */
+  --color-white: #FFFFFF;   /* White */
+  --color-navy: #0F172A;    /* Dark Navy */
+  --color-purple: #8B5CF6;  /* Accent Purple */
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background: radial-gradient(1200px 600px at 50% -10%, rgba(59, 130, 246, 0.08), transparent 60%),
+              radial-gradient(800px 400px at 100% 10%, rgba(255, 255, 255, 0.04), transparent 50%),
+              var(--color-navy);
+  color: var(--foreground);
+}
+
+/* Smooth animations: GPU-friendly transforms and opacity */
+.reveal[data-state="hidden"] { opacity: 0; transform: translateY(12px); }
+.reveal[data-state="visible"] { opacity: 1; transform: translateY(0); transition: opacity 600ms ease, transform 600ms ease; will-change: opacity, transform; }
+
+.cta-btn {
+  transition: color 200ms ease, background-color 200ms ease, transform 200ms ease;
+  will-change: transform;
+}
+.cta-btn:hover { transform: translateY(-1px); }
+.card:hover { transform: translateY(-2px) scale(1.01); }
+.card { transition: transform 250ms ease, box-shadow 250ms ease; will-change: transform; }
+
+/* Focus ring consistency */
+.focus-ring { outline: none; box-shadow: 0 0 0 2px var(--color-accent), 0 0 0 4px rgba(255,255,255,0.12); }
+
