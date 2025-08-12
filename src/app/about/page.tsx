@@ -7,7 +7,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="bg-darkNavy text-white min-h-screen flex flex-col">
+    <div className="bg-[var(--color-navy)] text-white min-h-screen flex flex-col">
       {/* Hero Section */}
       <header className="w-full flex flex-col items-center justify-center text-center py-16 px-4 sm:py-24 sm:px-8 bg-[var(--color-primary)]" aria-label="About Eka Corp Hero">
         <Reveal>

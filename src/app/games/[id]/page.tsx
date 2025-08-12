@@ -30,12 +30,13 @@ export function generateStaticParams() {
 }
 
 type PageProps = {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 };
 
-export default function GameDetailPage({ params }: PageProps) {
+export default async function GameDetailPage({ params }: PageProps) {
   const games = gamesData as Game[];
-  const game = games.find((g) => g.id === params.id);
+  const resolvedParams = await params;
+  const game = games.find((g) => g.id === resolvedParams.id);
   if (!game) {
     notFound();
   }

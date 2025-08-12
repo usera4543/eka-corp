@@ -183,13 +183,13 @@ export default function GamesPage() {
           </Reveal>
           <Reveal>
             <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-              We' re constantly working on new titles and expanding our portfolio. Stay tuned for exciting announcements!
+              We are constantly working on new titles and expanding our portfolio. Stay tuned for exciting announcements!
             </p>
           </Reveal>
           <Reveal>
             <Link
               href="/contact"
-              className="inline-flex items-center bg-white/10 hover:bg_WHITE/20 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded-full text-lg border border-white/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-gray-900"
+              className="inline-flex items-center bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-semibold px-8 py-4 rounded-full text-lg border border-white/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-gray-900"
             >
               Get in Touch
               <svg

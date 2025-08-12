@@ -29,7 +29,7 @@ export default function Home() {
   const featuredGames = allGames.filter(game => game.title === "Capsule Carnage");
 
   return (
-    <div className="bg-darkNavy text-white min-h-screen flex flex-col font-sans">
+    <div className="bg-[var(--color-navy)] text-white min-h-screen flex flex-col font-sans">
       {/* Hero Section */}
       <header className="w-full text-center py-16 px-4 sm:py-24 sm:px-8 bg-[var(--color-primary)]" aria-label="Eka Corp Hero">
         <Reveal>
@@ -244,7 +244,7 @@ export default function Home() {
         <Reveal>
           <Link
             href="/about"
-            className="cta-btn inline-block rounded-full border-2 border-accentBlue text-accentBlue font-semibold px-7 py-2 text-base hover:bg-accentPurple hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-accentBlue focus:ring-offset-2"
+            className="cta-btn inline-block rounded-full border-2 border-[var(--color-accent)] text-[var(--color-accent)] font-semibold px-7 py-2 text-base hover:bg-[var(--color-purple)] hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--color-accent)] focus:ring-offset-2"
           >
             Learn More
           </Link>
