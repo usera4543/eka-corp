@@ -25,7 +25,7 @@ export default function GamesPage() {
   const games = gamesData as Game[];
 
   return (
-    <div className="bg-[var(--color-navy)] text-white min-h-screen flex flex-col">
+    <div className="bg-darkNavy text-white min-h-screen flex flex-col">
       {/* Hero Header */}
       <header
         className="w-full text-center py-16 sm:py-20 px-4 bg-[var(--color-primary)] relative overflow-hidden"

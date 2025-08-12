@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#ff3b3b', // Bright Red - Eka Corp brand
-        accent: '#ff3b3b', // Bright Red - Eka Corp brand
-        white: '#ffffff', // White
-        navy: '#1a1a1a', // Dark Gray - Eka Corp brand
-        darkGray: '#1a1a1a', // Dark Gray - Eka Corp brand
-        brightRed: '#ff3b3b', // Bright Red - Eka Corp brand
+        primaryBlue: '#1E40AF',
+        accentBlue: '#3B82F6',
+        lightBlueTint: '#EFF6FF',
+        white: '#FFFFFF',
+        darkNavy: '#0F172A',
+        accentPurple: '#8B5CF6',
       },
     },
   },

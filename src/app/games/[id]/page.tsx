@@ -44,7 +44,7 @@ export default async function GameDetailPage({ params }: PageProps) {
   const playStoreHref = game.playStoreUrl ?? "https://play.google.com/store/apps/dev?id=eka-corp";
 
   return (
-    <div className="bg-[var(--color-navy)] text-white min-h-screen">
+    <div className="bg-darkNavy text-white min-h-screen">
       <header className="w-full text-center py-10 sm:py-14 px-4 bg-[var(--color-primary)]" aria-label="Game details header">
         <Reveal>
           <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">{game.title}</h1>
