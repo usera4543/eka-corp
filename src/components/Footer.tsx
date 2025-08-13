@@ -7,7 +7,7 @@ export default function Footer() {
         <span className="text-sm opacity-80 text-center">&copy; {new Date().getFullYear()} Eka Corp. All rights reserved.</span>
         <nav aria-label="Social media" className="flex gap-5">
           <a
-            href="https://www.linkedin.com/company/eka-corp"
+            href="https://www.linkedin.com/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -16,7 +16,7 @@ export default function Footer() {
             <Image src="/images/linkedin.svg" alt="LinkedIn icon" width={28} height={28} className="object-contain" priority />
           </a>
           <a
-            href="https://play.google.com/store/apps/dev?id=eka-corp"
+            href="https://play.google.com/store/apps/developer?id=NV2a+Games"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Play Store"
@@ -25,7 +25,7 @@ export default function Footer() {
             <Image src="/images/playstore.svg" alt="Play Store icon" width={28} height={28} className="object-contain" priority />
           </a>
           <a
-            href="https://www.youtube.com/@ekacorp"
+            href="https://www.youtube.com/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="YouTube"

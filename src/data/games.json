@@ -3,13 +3,12 @@
     "id": "capsule-carnage",
     "title": "Capsule Carnage",
     "description": "An intense action-packed adventure with explosive gameplay and stunning visuals. Experience the thrill of high-octane combat in a beautifully crafted world where every explosion tells a story.",
-    "image": "/images/game-1.svg",
-    "youtubeVideo": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "image": "/images/CCMain.png",
     "screenshots": [
-      "/images/game-1.svg",
-      "/images/game-2.svg", 
-      "/images/game-3.svg",
-      "/images/game-1.svg"
+      "/images/CC1.png",
+      "/images/CC2.png", 
+      "/images/CC3.png",
+      "/images/CC4.png"
     ],
     "features": [
       "Explosive action-packed gameplay",
@@ -32,7 +31,13 @@
     "id": "balance-till-end",
     "title": "Balance Till End",
     "description": "Balance Till End is a game in which the player has to BALANCE the ball TILL the END to FINISH the Game. This game has an END.",
-    "image": "/images/game-2.svg",
+    "image": "/images/BTEMain.webp",
+    "screenshots": [
+      "/images/BTE1.webp",
+      "/images/BTE2.webp", 
+      "/images/BTE3.webp"
+    ],
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.NV2aGames.BalanceTillEnd",
     "features": [
       "Fast-paced arcade gameplay",
       "Cosmic obstacle navigation",
@@ -52,7 +57,13 @@
     "id": "spacedroids",
     "title": "Spacedroids",
     "description": "Space Shooter - Escape the Droids !!!!",
-    "image": "/images/game-3.svg",
+    "image": "/images/SDMain.webp",
+    "screenshots": [
+      "/images/SD1.webp",
+      "/images/SD2.webp", 
+      "/images/SD3.webp"
+    ],
+    "playStoreUrl": "https://play.google.com/store/apps/details?id=com.NV2aGames.Spacedroids",
     "features": [
       "Deep turn-based strategy",
       "Tactical combat system",

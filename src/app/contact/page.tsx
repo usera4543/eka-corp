@@ -3,17 +3,17 @@ import Image from "next/image";
 export default function ContactPage() {
   const socialLinks = [
     {
-      href: "https://www.linkedin.com/company/eka-corp",
+      href: "https://www.linkedin.com/",
       label: "LinkedIn",
       icon: "/images/linkedin.svg",
     },
     {
-      href: "https://play.google.com/store/apps/dev?id=eka-corp",
+      href: "https://play.google.com/store/apps/developer?id=NV2a+Games",
       label: "Play Store",
       icon: "/images/playstore.svg",
     },
     {
-      href: "https://www.youtube.com/@ekacorp",
+      href: "https://www.youtube.com/",
       label: "YouTube",
       icon: "/images/youtube.svg",
     },

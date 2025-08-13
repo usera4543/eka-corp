@@ -3,7 +3,7 @@ import Reveal from "@/components/Reveal";
 
 export default function AboutPage() {
   const team = [
-    { id: "t1", name: "User A", role: "Solo Developer", image: "/images/team-1.svg" },
+    { id: "t1", name: "User A", role: "Founder & Developer", image: "/images/team-1.svg" },
   ];
 
   return (
@@ -31,9 +31,6 @@ export default function AboutPage() {
             We are passionate creators dedicated to building games that spark imagination, foster
             connection, and inspire players worldwide. Our studio blends thoughtful design,
             expressive art, and innovative technology to craft memorable interactive experiences.
-            This is placeholder text for the full mission statement. It can expand to include
-            studio values, creative philosophy, and our commitment to accessibility and player-first
-            design across all platforms.
           </p>
         </Reveal>
       </section>

@@ -41,7 +41,7 @@ export default async function GameDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const playStoreHref = game.playStoreUrl ?? "https://play.google.com/store/apps/dev?id=eka-corp";
+  const playStoreHref = game.playStoreUrl ?? "https://play.google.com/store/apps/developer?id=NV2a+Games";
 
   return (
     <div className="bg-darkNavy text-white min-h-screen">
@@ -95,7 +95,6 @@ export default async function GameDetailPage({ params }: PageProps) {
                 >
                   Download on Play Store
                 </Link>
-                <p className="mt-3 text-xs text-[color-mix(in_oklab,var(--color-navy)_68%,white)]">Placeholder link</p>
               </div>
             </Reveal>
           </aside>
